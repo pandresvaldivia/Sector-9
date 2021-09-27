@@ -1,0 +1,29 @@
+.footer {
+	font: var(--medium);
+	padding-block-end: 88px;
+	margin-block-start: 104px;
+	color: var(--white);
+}
+
+.footer-title {
+	font: var(--smallBold);
+	color: var(--yellow);
+	text-transform: uppercase;
+	margin-block-start: 64px;
+	margin-block-end: 24px;
+}
+
+.footer-copyrigth img {
+	vertical-align: middle;
+}
+
+.copyrigth {
+	opacity: 0.5;
+}
+
+.footer-links a {
+	text-decoration: none;
+	margin-block-start: 16px;
+	color: var(--white);
+	display: block;
+}

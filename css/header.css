@@ -1,0 +1,14 @@
+.header {
+	padding-block-start: 24px;
+}
+
+.header-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 24px;
+}
+
+.logo img {
+	vertical-align: middle;
+}

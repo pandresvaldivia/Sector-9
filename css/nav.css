@@ -1,0 +1,10 @@
+.nav-content {
+	display: flex;
+	gap: 38.5px;
+}
+
+.nav-content a {
+	text-decoration: none;
+	font: var(--smallBtn);
+	color: var(--blue);
+}

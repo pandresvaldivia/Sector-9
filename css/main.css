@@ -1,0 +1,21 @@
+:root {
+	--yellow: #fdd130;
+	--blue: #0b1d26;
+	--white: #ffffff;
+	--fontBase: 'Poppins', sans-serif;
+	--headline1: 500 24px/36px var(--fontBase);
+	--headline2: 600 24px/36px var(--fontBase);
+	--bold: 700 18px/32px var(--fontBase);
+	--smallBold: 700 24px/32px var(--fontBase);
+	--medium: 500 18px/32px var(--fontBase);
+	--normal: 400 18px/32px var(--fontBase);
+	--normalBtn: 700 18px/27px var(--fontBase);
+	--smallBtn: 700 16px/24px var(--fontBase);
+}
+
+.body {
+	background: var(--blue);
+	font: var(--normal);
+	margin: 0;
+	min-inline-size: 360px;
+}

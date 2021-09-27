@@ -1,0 +1,13 @@
+.principal {
+	margin-block-start: 40px;
+}
+
+.principal-description {
+	font: var(--headline1);
+	margin-block-end: 32px;
+}
+
+.principal .icon-arrow::before {
+	display: inline-block;
+	transform: rotate(90deg);
+}

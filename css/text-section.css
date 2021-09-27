@@ -1,0 +1,13 @@
+.text-section::before {
+	content: '';
+	display: block;
+	block-size: 2px;
+	inline-size: 72px;
+	background: var(--yellow);
+	margin-block-end: 29px;
+}
+
+.principal .text-section::before {
+	margin-block-end: 32px;
+	z-index: 1;
+}
