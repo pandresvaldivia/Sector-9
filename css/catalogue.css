@@ -1,4 +1,22 @@
 .catalogue {
-	padding-block-start: 9px;
 	counter-reset: product;
+	display: flex;
+	flex-direction: column;
+	gap: 80px;
+}
+
+@media screen and (min-width: 810px) {
+	.catalogue {
+		max-inline-size: 1462px;
+		margin: 0 auto;
+		gap: 200px;
+	}
+}
+
+@media screen and (min-width: 1260px) {
+	.catalogue {
+		inline-size: 80%;
+		position: relative;
+		top: -250px;
+	}
 }

@@ -13,9 +13,33 @@
 	--smallBtn: 700 16px/24px var(--fontBase);
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 .body {
 	background: var(--blue);
 	font: var(--normal);
 	margin: 0;
 	min-inline-size: 360px;
+}
+
+@media screen and (min-width: 810px) {
+	:root {
+		--headline1: 500 50px/70px var(--fontBase);
+	}
+}
+
+@media screen and (min-width: 1260px) {
+	:root {
+		--headline1: 500 60px/80px var(--fontBase);
+		--headline2: 600 64px/96px var(--fontBase);
+	}
+}
+
+@media screen and (min-width: 1450px) {
+	:root {
+		--headline1: 500 88px/100px var(--fontBase);
+		--headline2: 600 64px/96px var(--fontBase);
+	}
 }

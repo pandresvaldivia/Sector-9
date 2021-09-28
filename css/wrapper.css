@@ -1,4 +1,19 @@
 .wrapper {
 	padding-inline-end: 24px;
 	padding-inline-start: 24px;
+	max-inline-size: 700px;
+	margin: 0 auto;
+}
+
+@media screen and (max-width: 815px) {
+	.wrapper {
+		max-inline-size: 100%;
+	}
+}
+
+@media screen and (min-width: 1260px) {
+	.wrapper {
+		max-inline-size: 100%;
+		box-sizing: border-box;
+	}
 }

@@ -11,3 +11,9 @@
 	margin-block-end: 32px;
 	z-index: 1;
 }
+
+@media screen and (min-width: 1260px) {
+	.text-section::before {
+		margin-block-end: 27px;
+	}
+}

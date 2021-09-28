@@ -11,3 +11,9 @@
 	background-position: center;
 	block-size: 1000px;
 }
+
+@media screen and (min-width: 1260px) {
+	.hero {
+		block-size: 1886px;
+	}
+}
