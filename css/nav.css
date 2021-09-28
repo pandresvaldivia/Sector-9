@@ -7,4 +7,27 @@
 	text-decoration: none;
 	font: var(--smallBtn);
 	color: var(--blue);
+	transition: 0.3s color;
+	-webkit-transition: 0.3s color;
+	-moz-transition: 0.3s color;
+	-ms-transition: 0.3s color;
+	-o-transition: 0.3s color;
+}
+
+.nav-content a::after {
+	content: '';
+	display: block;
+	block-size: 3px;
+	inline-size: 0;
+	z-index: 2;
+	background: var(--blue);
+	transition: 0.3s inline-size;
+	-webkit-transition: 0.3s inline-size;
+	-moz-transition: 0.3s inline-size;
+	-ms-transition: 0.3s inline-size;
+	-o-transition: 0.3s inline-size;
+}
+
+.nav-content a:hover::after {
+	inline-size: 100%;
 }

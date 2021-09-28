@@ -10,9 +10,17 @@
 	max-inline-size: 535px;
 }
 
+.principal a {
+	color: var(--blue);
+	text-decoration: none;
+}
+
 .principal .icon-arrow::before {
 	display: inline-block;
 	transform: rotate(90deg);
+	position: relative;
+	animation: arrow-move 1s linear infinite;
+	-webkit-animation: arrow-move 1s linear infinite;
 }
 
 .principal-socialMedia {
@@ -36,6 +44,15 @@
 	-moz-transform: scale(1.5);
 	-ms-transform: scale(1.5);
 	-o-transform: scale(1.5);
+}
+
+@keyframes arrow-move {
+	from {
+		top: 0;
+	}
+	to {
+		top: 10px;
+	}
 }
 
 @media screen and (min-width: 1280px) {
