@@ -3,6 +3,9 @@
 	padding-block-end: 88px;
 	margin-block-start: 104px;
 	color: var(--white);
+	max-inline-size: 94.5625rem;
+	margin-inline-end: auto;
+	margin-inline-start: auto;
 }
 
 .footer-title {

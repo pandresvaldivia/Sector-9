@@ -2,6 +2,7 @@
 	display: flex;
 	justify-content: center;
 	margin-block-start: 40px;
+	gap: 2rem;
 }
 
 .principal-description {
@@ -19,8 +20,8 @@
 	display: inline-block;
 	transform: rotate(90deg);
 	position: relative;
-	animation: arrow-move 1s linear infinite;
-	-webkit-animation: arrow-move 1s linear infinite;
+	animation: arrow-move 0.8s ease-out infinite alternate;
+	-webkit-animation: arrow-move 0.8s ease-out infinite alternate;
 }
 
 .principal-socialMedia {
@@ -51,11 +52,11 @@
 		top: 0;
 	}
 	to {
-		top: 10px;
+		top: 1rem;
 	}
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 950px) {
 	.principal-container {
 		justify-content: space-between;
 		padding-inline-end: 56px;

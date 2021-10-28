@@ -21,7 +21,7 @@ html {
 	background: var(--blue);
 	font: var(--normal);
 	margin: 0;
-	min-inline-size: 360px;
+	min-inline-size: 22.5rem;
 }
 
 @media screen and (min-width: 810px) {
@@ -30,7 +30,7 @@ html {
 	}
 }
 
-@media screen and (min-width: 1260px) {
+@media screen and (min-width: 1280px) {
 	:root {
 		--headline1: 500 60px/80px var(--fontBase);
 		--headline2: 600 64px/96px var(--fontBase);
