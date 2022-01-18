@@ -1,0 +1,78 @@
+/* poppins-regular - latin */
+@font-face {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../assets/fonts/poppins-v15-latin-regular.woff2') format('woff2'),
+		url('../assets/fonts/poppins-v15-latin-regular.woff') format('woff');
+}
+/* poppins-500 - latin */
+@font-face {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 500;
+	src: url('../assets/fonts/poppins-v15-latin-500.woff2') format('woff2'),
+		url('../assets/fonts/poppins-v15-latin-500.woff') format('woff');
+}
+/* poppins-600 - latin */
+@font-face {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 600;
+	src: url('../assets/fonts/poppins-v15-latin-600.woff2') format('woff2'),
+		url('../assets/fonts/poppins-v15-latin-600.woff') format('woff');
+}
+/* poppins-700 - latin */
+@font-face {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 700;
+	src: url('../assets/fonts/poppins-v15-latin-700.woff2') format('woff2'),
+		url('../assets/fonts/poppins-v15-latin-700.woff') format('woff');
+}
+
+:root {
+	--yellow: #fdd130;
+	--blue: #0b1d26;
+	--white: #ffffff;
+	--fontBase: 'Poppins', sans-serif;
+	--headline1: 500 24px/36px var(--fontBase);
+	--headline2: 600 24px/36px var(--fontBase);
+	--bold: 700 18px/32px var(--fontBase);
+	--smallBold: 700 24px/32px var(--fontBase);
+	--medium: 500 18px/32px var(--fontBase);
+	--normal: 400 18px/32px var(--fontBase);
+	--normalBtn: 700 18px/27px var(--fontBase);
+	--smallBtn: 700 16px/24px var(--fontBase);
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+.body {
+	background: var(--blue);
+	font: var(--normal);
+	margin: 0;
+	min-inline-size: 22.5rem;
+}
+
+@media screen and (min-width: 810px) {
+	:root {
+		--headline1: 500 50px/70px var(--fontBase);
+	}
+}
+
+@media screen and (min-width: 1280px) {
+	:root {
+		--headline1: 500 60px/80px var(--fontBase);
+		--headline2: 600 64px/96px var(--fontBase);
+	}
+}
+
+@media screen and (min-width: 1450px) {
+	:root {
+		--headline1: 500 88px/100px var(--fontBase);
+		--headline2: 600 64px/96px var(--fontBase);
+	}
+}

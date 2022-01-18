@@ -1,0 +1,12 @@
+import '../css/icons.css';
+import '../css/wrapper.css';
+import '../css/hero.css';
+import '../css/main.css';
+import '../css/header.css';
+import '../css/nav.css';
+import '../css/principal.css';
+import '../css/index-nav.css';
+import '../css/text-section.css';
+import '../css/catalogue.css';
+import '../css/product.css';
+import '../css/footer.css';

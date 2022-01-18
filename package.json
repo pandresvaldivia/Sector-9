@@ -1,0 +1,34 @@
+{
+	"name": "sector-9",
+	"version": "1.0.0",
+	"description": "",
+	"main": "webpack.config.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "webpack --mode production --config webpack.config.js",
+		"dev": "webpack --config webpack.config.dev.js",
+		"start": "webpack serve --config webpack.config.dev.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/pandresvaldivia/Sector-9.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/pandresvaldivia/Sector-9/issues"
+	},
+	"homepage": "https://github.com/pandresvaldivia/Sector-9#readme",
+	"devDependencies": {
+		"copy-webpack-plugin": "^10.2.0",
+		"css-loader": "^6.5.1",
+		"css-minimizer-webpack-plugin": "^3.4.1",
+		"html-webpack-plugin": "^5.5.0",
+		"mini-css-extract-plugin": "2.4.6",
+		"terser-webpack-plugin": "^5.3.0",
+		"webpack": "^5.66.0",
+		"webpack-cli": "^4.9.1",
+		"webpack-dev-server": "^4.7.3"
+	}
+}
